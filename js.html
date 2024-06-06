@@ -1,15 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript</title>
-    
+    <title>Document</title>
+    <script type="text/JavaScript" src="jsmath.js"></script>
 </head>
 <body>
-    <p id="callme">CORALINE</p>
-    <img id="hi" src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/08/coraline-2009-1.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5">
-    <button onclick ='document.getElementById("hi").src=" https://miro.medium.com/v2/resize:fit:720/format:webp/1*TxywEBfKMh8VF8lM23ZL_Q.png"> Click me </button>                    
-    <button onclick ='document.getElementById("callme").innerHTML="Mother" '>Click me!</button>
-</body>     
-</html>                                             
+
+     <h1 id ="add">MATH</h1>
+    <label>Addition</label>
+    <input id="add1" type="text" name="input"> 
+    <onclick="changetxt()"> +</onclick>
+    <input id="add2" type="text" name="input1"> 
+    <onclick="changetxt()"> =</onclick>
+    <input id="sum"type="text" name="sum"> 
+    <button onclick ="addition()">Add</button>
+
+    <h2 id ="subs"></h2>
+    <label>Subtraction</label>
+    <input id="sub1" type="text" name="input2"> 
+    <onclick="changetxt()"> -</onclick>
+    <input id="sub2" type="text" name="input3"> 
+    <onclick="changetxt()"> =</onclick>
+    <input id="sub" type="text" name="subs"> 
+    <button onclick ="subtraction()">Subs</button>
+
+    <h3 id="muls"></h3>
+    <label>Multiplication</label>
+    <input id="mul1" type="text" name="input4"> 
+    <onclick="changetxt()"> *</onclick>
+    <input id="mul2" type="text" name="input5"> 
+    <onclick="changetxt()"> =</onclick>
+    <input id="mul" type="text" name="mul"> 
+    <button onclick ="multiplication()">Mul</button>
+
+
+    <h4 id =divi></h4>
+    <label>Division</label>
+    <input id="div1" type="text" name="input6"> 
+    <onclick="changetxt()"> /</onclick>
+    <input id="div2" type="text" name="input7"> 
+    <onclick="changetxt()"> =</onclick>
+    <input id="div" type="text" name="div"> 
+    <button onclick ="division()">Div</button>
+
+
+
+    
+    
+    
+</body>
+</html>
