@@ -217,6 +217,18 @@ color: var(--extra-light);
     color:#333;
     text-align: center;
 }
+.about-content h3{
+    font-size:23px;
+    margin-bottom:15px;
+    color:#333;
+    text-align: center;
+}
+.about-content h4{
+    font-size:23px;
+    margin-bottom:15px;
+    color:#333;
+    text-align: center;
+}
 .about-content p{
     font-size:18px;
     line-height:1.5;
