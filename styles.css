@@ -315,6 +315,7 @@ input {
   }
 .content h1 { 
     items-align: center;
+    margin-left: 750px;
 }
   .code{
       border-style: solid;
