@@ -314,7 +314,7 @@ input {
       border-style: solid;
   }
 .content h1 { 
-    text-align: center;
+    items-align: center;
 }
   .code{
       border-style: solid;
