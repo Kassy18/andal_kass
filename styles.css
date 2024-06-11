@@ -313,6 +313,9 @@ input {
   .reach {
       border-style: solid;
   }
+.content p { 
+    text-align:center;
+}
   .code{
       border-style: solid;
   }
